@@ -9,3 +9,6 @@ functions/index.js
 functions/templates/**
 firebase-debug.log
 functions/.runtimeconfig.json
+/ChameleonServices.Web/.vs/ChameleonServices.Web
+/ChameleonServices.Web/bin/Debug/net6.0
+/ChameleonServices.Web/obj

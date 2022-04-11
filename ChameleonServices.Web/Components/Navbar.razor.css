@@ -1,0 +1,92 @@
+﻿nav#main-nav {
+  display: flex;
+  height: inherit;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav#main-nav .nav-link {
+  display: flex;
+  box-sizing: border-box;
+  height: inherit;
+  margin: 0.15em 0.3em;
+  padding: 0.25em 0.15em;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: Tahoma, sans-serif;
+  color: white;
+  font-variant-caps: all-petite-caps;
+  border: 5px solid white;
+}
+
+nav#main-nav .nav-link a {
+  color: currentColor !important;
+}
+
+/* Larger screens */
+@media screen and (min-width: 768px) {
+  nav#main-nav .nav-link {
+    width: 20%;
+  }
+}
+/* Medium screens */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  nav#main-nav {
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav#main-nav .nav-link {
+    width: calc(50% - 0.3em);
+    margin: 0.3em 0.15em;
+    box-sizing: border-box;
+  }
+}
+/* Small screens */
+@media screen and (max-width: 600px) {
+  nav#main-nav {
+    display: block;
+    box-sizing: border-box;
+  }
+
+  nav#main-nav .nav-link {
+    width: auto;
+    box-sizing: border-box;
+    margin: 0 0.2em;
+    margin-bottom: 0.4em;
+  }
+}
+/* Actual Text */
+.nav-link span {
+  align-self: center;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+
+.nav-link:nth-of-type(1) {
+  background-color: gold;
+  color: #333 !important;
+}
+
+.nav-link:nth-of-type(2) {
+  background-color: navy;
+}
+
+.nav-link:nth-of-type(3) {
+  background-color: #BD2031;
+}
+
+.nav-link:nth-of-type(4) {
+  background-color: forestgreen;
+}
+
+.nav-link:nth-of-type(5) {
+  background-color: orange;
+  color: #333 !important;
+}

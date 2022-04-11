@@ -1,0 +1,58 @@
+﻿@inherits LayoutComponentBase
+
+<header>
+    <ChameleonServices.Web.Components.ChameleonBanner />
+
+    <div class="banner-overlay-panel" id="header-left">
+        <div id="banner-and-contact">
+            <div id="banner-logo">
+                <img src="/media/logo-md-border.png" alt="Chameleon Services logo" width="240" />
+            </div>
+
+            <div id="contact-wrapper">
+                <div id="tel-wrap">
+                    <address id="telephone">(941) 893.9977</address>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="content">
+    <ChameleonServices.Web.Components.Navbar />
+
+    <main id="content-wrapper">
+        @Body
+    </main>
+</section>
+
+<footer>
+    <section id="footer-contact">
+        <h5>Need to get ahold of us?</h5>
+
+        <div id="footer-contact-info">
+            <div>
+                <span class="icon cs-phone"></span>
+                <span>(941) 893.9977</span>
+            </div>
+
+            <div>
+                <span class="icon cs-location"></span>
+                <address>1235 Kimball Road<br> Venice, FL 34293</address>
+            </div>
+
+            <div>
+                <span class="icon cs-mail"></span>
+                <span><a class="link" href="mailto:info@chameleon-services.com">info@chameleon-services.com</a></span>
+            </div>
+        </div>
+    </section>
+
+    <div style="flex-grow: 1"></div>
+
+    <section class="badge">
+        <a href="//www.homeadvisor.com/rated.KahunaLLC.51637650.html" style="display: block; margin: 0 auto;">
+            <img alt="HomeAdvisor Screened &amp; Approved" style="display:block;" src="//www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=51637650&amp;key=1062e017391797b3da1200fa17d77a09">
+        </a>
+    </section>
+</footer>
