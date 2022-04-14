@@ -1,0 +1,35 @@
+﻿header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--chameleon-dark-green, forestgreen);
+  position: relative;
+  box-shadow: 0px 4px 5px 0 #333;
+  z-index: -1;
+  height: 55vh;
+}
+
+header section#chameleon-banner {
+  background-color: antiquewhite;
+  padding-bottom: 1em;
+  position: relative;
+}
+
+div.banner-slide {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: antiquewhite no-repeat center center local;
+  background-image: none;
+  background-size: cover;
+  transition: 1.5s;
+  overflow: hidden;
+}
+
+#banner-preload {
+  background: antiquewhite no-repeat center center fixed;
+  background-image: none;
+  background-size: cover;
+  display: none;
+}

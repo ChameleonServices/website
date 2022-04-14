@@ -6,5 +6,13 @@
   {
     "outputFile": "Components/Navbar.razor.css",
     "inputFile": "Components/Navbar.razor.scss"
+  },
+  {
+    "outputFile": "Components/ChameleonBanner.razor.css",
+    "inputFile": "Components/ChameleonBanner.razor.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/app.css",
+    "inputFile": "wwwroot/css/app.scss"
   }
 ]

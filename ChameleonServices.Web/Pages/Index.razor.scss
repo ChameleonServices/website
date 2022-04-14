@@ -5,28 +5,11 @@
     min-width: 350px;
 }
 
-header {
-    height: 70vh;
-    padding-bottom: 1em;
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    background-color: var(--chameleon-dark-green, forestgreen);
-}
-
 chameleon-navigation {
     position: relative;
     width: 100%;
     z-index: 30;
     margin-top: 1em;
-}
-
-chameleon-banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
 }
 
 header > .banner-overlay-panel {
@@ -125,16 +108,16 @@ nav > .nav-link {
 }
 
 @media screen and (orientation: portrait) and (max-width: 1060px) {
-    header {
-        height: 40vh;
-    }
+    //header {
+    //    height: 40vh;
+    //}
 }
 
 @media screen and (max-width: 780px) {
 
-    header {
-        height: fit-content;
-    }
+    //header {
+    //    height: fit-content;
+    //}
 
     .banner-overlay-panel {
         width: 100%;
