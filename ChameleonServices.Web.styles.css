@@ -1,3 +1,39 @@
+/* /Components/ChameleonBanner.razor.rz.scp.css */
+header[b-fqoue2diq1] {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--chameleon-dark-green, forestgreen);
+  position: relative;
+  box-shadow: 0px 4px 5px 0 #333;
+  z-index: -1;
+  height: 55vh;
+}
+
+header section#chameleon-banner[b-fqoue2diq1] {
+  background-color: antiquewhite;
+  padding-bottom: 1em;
+  position: relative;
+}
+
+div.banner-slide[b-fqoue2diq1] {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: antiquewhite no-repeat center center local;
+  background-image: none;
+  background-size: cover;
+  transition: 1.5s;
+  overflow: hidden;
+}
+
+#banner-preload[b-fqoue2diq1] {
+  background: antiquewhite no-repeat center center fixed;
+  background-image: none;
+  background-size: cover;
+  display: none;
+}
 /* /Components/Navbar.razor.rz.scp.css */
 nav#main-nav[b-uns4rlyodx] {
   display: flex;
@@ -99,28 +135,11 @@ nav#main-nav .nav-link a[b-uns4rlyodx] {
   min-width: 350px;
 }
 
-header[b-hq6b02cil3] {
-  height: 70vh;
-  padding-bottom: 1em;
-  width: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  background-color: var(--chameleon-dark-green, forestgreen);
-}
-
 chameleon-navigation[b-hq6b02cil3] {
   position: relative;
   width: 100%;
   z-index: 30;
   margin-top: 1em;
-}
-
-chameleon-banner[b-hq6b02cil3] {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
 }
 
 header > .banner-overlay-panel[b-hq6b02cil3] {
@@ -218,16 +237,7 @@ nav > .nav-link[b-hq6b02cil3] {
   border: 5px solid white;
 }
 
-@media screen and (orientation: portrait) and (max-width: 1060px) {
-  header[b-hq6b02cil3] {
-    height: 40vh;
-  }
-}
 @media screen and (max-width: 780px) {
-  header[b-hq6b02cil3] {
-    height: fit-content;
-  }
-
   .banner-overlay-panel[b-hq6b02cil3] {
     width: 100%;
     align-items: center;
