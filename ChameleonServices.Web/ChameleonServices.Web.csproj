@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <Content Remove="compilerconfig.json" />
+    <Content Remove="wwwroot\scss\app.scss" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="compilerconfig.json" />
+    <None Include="wwwroot\scss\app.scss" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +26,10 @@
     <Content Update="wwwroot\banner.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
 
 </Project>

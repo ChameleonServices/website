@@ -292,7 +292,7 @@ blockquote > div div::before {
 
 .grid {
   display: grid;
-  grid-gap: 1em;
+  gap: 1em;
 }
 
 .grid-header {
@@ -330,7 +330,8 @@ footer {
   position: relative;
   box-sizing: border-box;
   padding: 1em;
-  flex-basis: row nowrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   color: white;
   border-top: 3px solid white;
